@@ -19,6 +19,7 @@ public class DarkerNights extends JavaPlugin implements Listener {
     
     @Override
     public void onEnable(){
+        getServer().getPluginManager().registerEvents(this, this);
         
     }
     @EventHandler
